@@ -1,8 +1,11 @@
 # Hebrew bigram map-reduce analysis
 
-#### Personal Information
-- Names: Itay Shaish and Daniel Moreh
-- IDs: 206446536 and 208276774
+## Bigram definition
+From Wikipedia, the free encyclopedia
+
+A bigram or digram is a sequence of two adjacent elements from a string of tokens, which are typically letters, syllables, or words. A bigram is an n-gram for n=2.
+
+The frequency distribution of every bigram in a string is commonly used for simple statistical analysis of text in many applications, including in computational linguistics, cryptography, and speech recognition. 
 
 ## Introduction
 This project is a map-reduce analysis of bigrams in Hebrew text.\
@@ -12,7 +15,7 @@ The project is part of BGU "Big Data" course.
 ## How To Run
  - Build jars using intellij.
  - Create a bucket on AWS called `bucket1638974297771`
- - Create `Jars` folder in the bucket and upload the jars to it.(the jars are located in the `out/artifacts/Steps` folder)
+ - Create `Jars` folder in the bucket and upload the jars to it. (the jars are located in the `out/artifacts/Steps` folder)
  - Run the App.jar by running `java -jar App.jar <minNPMI> <relNPMI>`
 
 ## Flow of the project
