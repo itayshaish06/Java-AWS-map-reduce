@@ -16,8 +16,14 @@ The project is part of BGU "Big Data" course.
  - Build jars using intellij.
  - Create a bucket on AWS called `bucket1638974297771`
  - Create `Jars` folder in the bucket and upload the jars to it. (the jars are located in the `out/artifacts/Steps` folder)
- - Run the App.jar by running `java -jar App.jar <minNPMI> <relNPMI>`
-
+ - Run the App.jar by running
+   ```bash
+   java -jar App.jar <minNPMI> <relNPMI>
+   ```
+   For Example:
+   ```bash
+   java -jar App.jar 0.5 0.2
+   ```
 ## Flow of the project
 marks:
 - N - number of bigrams in the decade
